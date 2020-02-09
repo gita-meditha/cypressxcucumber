@@ -2,6 +2,7 @@
 ## Cypress x Cucumber
 
 > Cypress is a next generation front end testing tool built for the modern web. We address the key pain points developers and QA engineers face when testing modern applications. [Cypress.io](https://docs.cypress.io/guides/overview/why-cypress.html#What-you%E2%80%99ll-learn)
+
 > Cucumber, define the feature files with all your stakeholders using Behavior-Driven Development (BDD). Automatically create documentation that’s up to date and easily shareable. [Cucumber.io](https://cucumber.io/)
 
 ## Getting Started
@@ -33,6 +34,18 @@ yarn install
 ```
 actually using yarn is recommended (parallel process, install [yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable))
 
+## Set up cypress.env
+```
+cp cypress.env.json.example cypress.env.json
+```
+and then edit, for where automation test can be running
+```json
+{
+    "host": "https://xxx",
+    "api_server": "https://xxx"
+}
+```
+
 ## Running the tests
 How to run the automated tests for this system
 
@@ -52,8 +65,9 @@ npm run open-report
 ```
 2. Report using **cypress dashboard**
 Please visit https://dashboard.cypress.io/projects/[projectId]/runs
-For getting the projectID please go to Cypress Desktop and then Settings
-![projectID](https://pasteboard.co/ITQL8Gb.png)
+
+> For getting the projectID please go to Cypress Desktop and then Settings. Or move to below steps.
+
 3. Report using mochawesome or the other libraries
 
 ## Set up project to record
