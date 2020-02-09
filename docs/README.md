@@ -10,9 +10,13 @@
 
 > Cucumber, define the feature files with all your stakeholders using Behavior-Driven Development (BDD). Automatically create documentation that’s up to date and easily shareable. [Cucumber.io](https://cucumber.io/)
 
-**Table of Contents**
-
-[TOC]
+#### Table of contents
+* [Get started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installing](#installing)
+* [Set up cypress.env](#set-up-cypress-.-env)
+* [Running the tests](#running-the-tests)
+* [Report](#report)
 
 ## Getting Started
 
