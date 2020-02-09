@@ -1,9 +1,18 @@
+[![](https://img.shields.io/badge/cypress-4.0.1-lightgrey)](https://www.cypress.io/)[![](https://img.shields.io/badge/cypress--cucumber--preprocessor-2.0.1-brightgreen)](https://www.npmjs.com/package/cypress-cucumber-preprocessor)[![](https://img.shields.io/badge/multiple--cucumber--html--reporter-1.13.2-yellowgreen)](https://www.npmjs.com/package/multiple-cucumber-html-reporter)
+
+![](https://learndevtestops.files.wordpress.com/2019/09/picture1.png)
+
 # WEB UI Automation Testing
+
 ## Cypress x Cucumber
 
 > Cypress is a next generation front end testing tool built for the modern web. We address the key pain points developers and QA engineers face when testing modern applications. [Cypress.io](https://docs.cypress.io/guides/overview/why-cypress.html#What-you%E2%80%99ll-learn)
 
 > Cucumber, define the feature files with all your stakeholders using Behavior-Driven Development (BDD). Automatically create documentation that’s up to date and easily shareable. [Cucumber.io](https://cucumber.io/)
+
+**Table of Contents**
+
+[TOC]
 
 ## Getting Started
 
@@ -59,11 +68,12 @@ npm run cypress -- -e TAGS='not @registerTest and (@searchTest or @forgotPasswor
 > Default browser using headless browser (Electron)
 
 > You can launch the browser with adding command --browser chrome
+
 ```
 npm run cypress -- -e TAGS='@loginTest' --browser chrome
 ```
 
-### Report
+## Report
 How to see the result test
 1. Report using `multiple-cucumber-html-reporter`
 ```
@@ -109,4 +119,4 @@ Please visit on [docs](https://github.com/damarmustiko/cypressxcucumber/tree/mas
 
 
 ## Authors
-* **QE Team** - *ralali.com* 
+* **QE Team** - *ralali.com*
