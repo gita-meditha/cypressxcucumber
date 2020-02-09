@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/1268976/20607953/d7ae489c-b24a-11e6-9cc4-91c6c74c5e88.png"/>
+  <img src="https://learndevtestops.files.wordpress.com/2019/09/picture1.png"/>
 </p>
 <p align="center">
   <a href="https://on.cypress.io">Documentation</a> |
