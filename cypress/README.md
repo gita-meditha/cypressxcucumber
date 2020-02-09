@@ -10,9 +10,13 @@
 
 > Cucumber, define the feature files with all your stakeholders using Behavior-Driven Development (BDD). Automatically create documentation that’s up to date and easily shareable. [Cucumber.io](https://cucumber.io/)
 
-**Table of Contents**
-
-[TOC]
+#### Table of contents
+* [Get started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installing](#installing)
+* [Set up cypress.env](#set-up-cypressenv)
+* [Running the tests](#running-the-tests)
+* [More Details](https://github.com/damarmustiko/cypressxcucumber/tree/master/docs)
 
 ## Getting Started
 
@@ -72,51 +76,3 @@ npm run cypress -- -e TAGS='not @registerTest and (@searchTest or @forgotPasswor
 ```
 npm run cypress -- -e TAGS='@loginTest' --browser chrome
 ```
-
-## Report
-How to see the result test
-1. Report using `multiple-cucumber-html-reporter`
-```
-npm run report
-npm run open-report
-```
-2. Report using **cypress dashboard**
-Please visit https://dashboard.cypress.io/projects/[projectId]/runs
-
-> For getting the projectID please go to Cypress Desktop and then Settings. Or move to below steps.
-
-3. Report using mochawesome or the other libraries
-
-## Set up project to record
-#### Cypress Dashboard (dashboard.cypress.io)
-
-1. Open the Cypress Desktop
-2. Choose the Project
-3. Go to Runs tab
-4. Please go to sign in first (login with google or github)
-5. Click Set up project to record
-6. Following the instructions on cypress
-7. And then Set up project
-8. The projectID and key for recorder will generated
-9. Recorded runs will show up on your Cypress Dashboard Service
-
-## How to npm it works
-Open **package.json** on editor and then search `"scripts"`
-```json
- {
-  "scripts": {
-    "clean-reports": "rm -fr cypress/reports/results/*.json cypress/reports/features cypress/reports/index.html",
-    "cypress": "npm run clean-reports & ./node_modules/.bin/cypress-tags run --spec \"cypress/integration/*.feature\"",
-    "cypress-ui": "./node_modules/.bin/cypress open",
-    "report": "node cypress/cypress_report.js",
-    "open-report": "open 'cypress/reports/index.html'"
-  }
-}
-  ```
-
-## How to working on WEB UI Automation
-Please visit on [docs](https://github.com/damarmustiko/cypressxcucumber/tree/master/docs)
-
-
-## Authors
-* **QE Team** - *ralali.com*
