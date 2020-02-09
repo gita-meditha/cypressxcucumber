@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 1. Clone this project
 2. Install Node.js and npm, we will use npm to install (or yarn)
-3. Install Cypress desktop [Download](https://cdn.cypress.io/desktop/4.0.1/darwin-x64/cypress.zip)
+3. Install Cypress desktop [Download](https://cdn.cypress.io/desktop/4.0.1/darwin-x64/cypress.zip), and for windows, you can explore
 4. Use VSCode for writing the code
 
 ### Installing
@@ -56,6 +56,13 @@ npm run cypress -- -e TAGS='not @registerTest and (@searchTest or @forgotPasswor
 ```
 > For more details and examples "cypress-tags" please take a look to the example repo [cypress-cucumber-example](https://github.com/TheBrainFamily/cypress-cucumber-example)
 
+> Default browser using headless browser (Electron)
+
+> You can launch the browser with adding command --browser chrome
+```
+npm run cypress -- -e TAGS='@loginTest' --browser chrome
+```
+
 ### Report
 How to see the result test
 1. Report using `multiple-cucumber-html-reporter`
@@ -88,7 +95,6 @@ Open **package.json** on editor and then search `"scripts"`
 ```json
  {
   "scripts": {
-    "lint": "eslint --fix --fix-type suggestion . --fix-type problem .",
     "clean-reports": "rm -fr cypress/reports/results/*.json cypress/reports/features cypress/reports/index.html",
     "cypress": "npm run clean-reports & ./node_modules/.bin/cypress-tags run --spec \"cypress/integration/*.feature\"",
     "cypress-ui": "./node_modules/.bin/cypress open",
@@ -99,7 +105,7 @@ Open **package.json** on editor and then search `"scripts"`
   ```
 
 ## How to working on WEB UI Automation
-Please visit on [docs](https://github.com)
+Please visit on [docs](https://github.com/damarmustiko/cypressxcucumber/tree/master/docs)
 
 
 ## Authors

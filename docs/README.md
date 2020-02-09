@@ -2,9 +2,8 @@
   <img src="https://learndevtestops.files.wordpress.com/2019/09/picture1.png"/>
 </p>
 <p align="center">
-  <a href="https://on.cypress.io">Documentation</a> |
-  <a href="https://on.cypress.io/changelog">Changelog</a> |
-  <a href="https://on.cypress.io/roadmap">Roadmap</a>
+  <a href="https://github.com/damarmustiko/cypressxcucumber/tree/master/docs">Documentation</a> |
+  <a href="https://github.com/damarmustiko/cypressxcucumber/tree/master/cypress">Set up</a>
 </p>
 
 <h3 align="center">
@@ -12,7 +11,7 @@
 </h3>
 
 <p align="center">
-  Fast, easy and reliable testing for anything that runs in a browser.
+  cypress x cucumber.
 </p>
 
 <p align="center">

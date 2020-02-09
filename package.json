@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "lint": "eslint --fix --fix-type suggestion . --fix-type problem .",
     "clean-reports": "rm -fr cypress/reports/results/*.json cypress/reports/features cypress/reports/index.html",
     "cypress-local": "npm run clean-reports & ./node_modules/.bin/cypress-tags run --spec \"cypress/integration/*.feature\"",
     "cypress": "npm run clean-reports & ./node_modules/.bin/cypress-tags run --spec \"cypress/integration/*.feature\"",
     "cypress-ui": "./node_modules/.bin/cypress open",
     "report": "node cypress/cypress_report.js",
-    "open-report": "open 'cypress/reports/index.html'"
+    "open-report": "open 'cypress/reports/index.html'",
+    "lint": "eslint --fix --fix-type suggestion . --fix-type problem ."
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.15.0",
