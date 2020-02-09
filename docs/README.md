@@ -14,9 +14,14 @@
 * [Get started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installing](#installing)
-* [Set up cypress.env](#set-up-cypress-.-env)
+* [Set up cypress.env](#set-up-cypressenv)
 * [Running the tests](#running-the-tests)
 * [Report](#report)
+* [Set up project to record](#set-up-project-to-record)
+  * [Cypress Dashboard](#cypress-dashboard)
+* [How to npm it works](#how-to-npm-it-works)
+* [How to working on WEB UI Automation](#how-to-working-on-web-ui-automation)
+* [Authors](#authors)
 
 ## Getting Started
 
@@ -92,7 +97,7 @@ Please visit https://dashboard.cypress.io/projects/[projectId]/runs
 3. Report using mochawesome or the other libraries
 
 ## Set up project to record
-#### Cypress Dashboard (dashboard.cypress.io)
+### Cypress Dashboard
 
 1. Open the Cypress Desktop
 2. Choose the Project
