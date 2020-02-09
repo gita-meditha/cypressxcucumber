@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/cypress-4.0.1-lightgrey)](https://www.cypress.io/)[![](https://img.shields.io/badge/cypress--cucumber--preprocessor-2.0.1-brightgreen)](https://www.npmjs.com/package/cypress-cucumber-preprocessor)[![](https://img.shields.io/badge/multiple--cucumber--html--reporter-1.13.2-yellowgreen)](https://www.npmjs.com/package/multiple-cucumber-html-reporter)
+[![](https://img.shields.io/badge/cypress-4.0.1-lightgrey)](https://www.cypress.io/) [![](https://img.shields.io/badge/cypress--cucumber--preprocessor-2.0.1-brightgreen)](https://www.npmjs.com/package/cypress-cucumber-preprocessor) [![](https://img.shields.io/badge/multiple--cucumber--html--reporter-1.13.2-yellowgreen)](https://www.npmjs.com/package/multiple-cucumber-html-reporter)
 
 ![](https://learndevtestops.files.wordpress.com/2019/09/picture1.png)
 
