@@ -1,92 +1,28 @@
-# WEB UI Automation Testing
-## Cypress x Cucumber
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/1268976/20607953/d7ae489c-b24a-11e6-9cc4-91c6c74c5e88.png"/>
+</p>
+<p align="center">
+  <a href="https://on.cypress.io">Documentation</a> |
+  <a href="https://on.cypress.io/changelog">Changelog</a> |
+  <a href="https://on.cypress.io/roadmap">Roadmap</a>
+</p>
 
-> Cypress is a next generation front end testing tool built for the modern web. We address the key pain points developers and QA engineers face when testing modern applications. [Cypress.io](https://docs.cypress.io/guides/overview/why-cypress.html#What-you%E2%80%99ll-learn)
-> Cucumber, define the feature files with all your stakeholders using Behavior-Driven Development (BDD). Automatically create documentation that’s up to date and easily shareable. [Cucumber.io](https://cucumber.io/)
+<h3 align="center">
+  The web has evolved. Finally, testing has too.
+</h3>
 
-## Getting Started
+<p align="center">
+  Fast, easy and reliable testing for anything that runs in a browser.
+</p>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-1. Clone this project
-2. Install Node.js and npm, we will use npm to install (or yarn)
-3. Install Cypress desktop [Download](https://cdn.cypress.io/desktop/4.0.1/darwin-x64/cypress.zip)
-4. Use VSCode for writing the code
-
-### Installing
-
-A step by step series of examples that tell you how to get a development automation testing
-
-Install package.json
-
-```
-npm install
-```
-
-or
-
-```
-yarn install
-```
-actually using yarn is recommended (parallel process, install [yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable))
-
-## Running the tests
-How to run the automated tests for this system
-
-```
-npm run cypress -- -e TAGS=''
-npm run cypress -- -e TAGS='@loginTest'
-npm run cypress -- -e TAGS='not @registerTest and (@searchTest or @forgotPasswordTest)'
-```
-> For more details and examples "cypress-tags" please take a look to the example repo [cypress-cucumber-example](https://github.com/TheBrainFamily/cypress-cucumber-example)
-
-### Report
-How to see the result test
-1. Report using `multiple-cucumber-html-reporter`
-```
-npm run report
-npm run open-report
-```
-2. Report using **cypress dashboard**
-Please visit https://dashboard.cypress.io/projects/[projectId]/runs
-For getting the projectID please go to Cypress Desktop and then Settings
-![projectID](https://pasteboard.co/ITQL8Gb.png)
-3. Report using mochawesome or the other libraries
-
-## Set up project to record
-#### Cypress Dashboard (dashboard.cypress.io)
-
-1. Open the Cypress Desktop
-2. Choose the Project
-3. Go to Runs tab
-4. Please go to sign in first (login with google or github)
-5. Click Set up project to record
-6. Following the instructions on cypress
-7. And then Set up project
-8. The projectID and key for recorder will generated
-9. Recorded runs will show up on your Cypress Dashboard Service
-
-## How to npm it works
-Open **package.json** on editor and then search `"scripts"`
-```json
- {
-  "scripts": {
-    "lint": "eslint --fix --fix-type suggestion . --fix-type problem .",
-    "clean-reports": "rm -fr cypress/reports/results/*.json cypress/reports/features cypress/reports/index.html",
-    "cypress": "npm run clean-reports & ./node_modules/.bin/cypress-tags run --spec \"cypress/integration/*.feature\"",
-    "cypress-ui": "./node_modules/.bin/cypress open",
-    "report": "node cypress/cypress_report.js",
-    "open-report": "open 'cypress/reports/index.html'"
-  }
-}
-  ```
-
-## How to working on WEB UI Automation
-Please visit on [docs](https://github.com)
-
-
-## Authors
-* **QE Team** - *ralali.com* 
+<p align="center">
+  <a href="https://www.npmjs.com/package/cypress">
+    <img src="https://img.shields.io/npm/dm/cypress.svg" alt="npm"/>
+  </a>
+  <a href="https://gitter.im/cypress-io/cypress">
+    <img src="https://img.shields.io/gitter/room/cypress-io/cypress.svg" alt="Gitter chat"/>
+  </a>
+    <a href="https://github.com/damarmustikoaji">
+    <img src="https://img.stackshare.io/misc/follow-on-stackshare-badge.svg" alt="@damarmustikoaji"/>
+  </a><br />
+</p>
